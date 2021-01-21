@@ -1,0 +1,25 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			//单页面配置，可覆盖全局配置
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				//也可为各平台单独配置
+				"app-plus":{
+					
+				},
+				"h5":{
+					
+				}
+			}
+		}
+	],
+	//全局配置
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}
